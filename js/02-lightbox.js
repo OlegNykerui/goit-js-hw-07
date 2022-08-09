@@ -29,9 +29,3 @@ let lightbox = new SimpleLightbox(".gallery a", {
   close: false,
   showCounter: false,
 });
-
-// let lightbox1111 = new SimpleLightbox(".gallery a", {
-//   captionsData: "alt",
-//   captionDelay: 250,
-//   captionPosition: "bottom",
-// });
