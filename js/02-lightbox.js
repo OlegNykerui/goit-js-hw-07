@@ -5,7 +5,7 @@ let refs = {
   gallery: document.querySelector(".gallery"),
 };
 
-// refs.gallery.addEventListener("click", onImageClick);
+refs.gallery.addEventListener("click", loadGallery);
 
 refs.gallery.insertAdjacentHTML("beforeend", loadGallery());
 
